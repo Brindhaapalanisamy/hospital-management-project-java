@@ -1,0 +1,30 @@
+complie work (command prompt)
+
+            javac -cp ".;mysql-connector-j-9.5.0.jar" *.java
+
+run work in (command prompt)
+
+             java -cp ".;mysql-connector-j-9.5.0.jar" Main
+
+
+             // another method:
+
+              Open MySQL Command Line Client.
+
+              Enter password: brin360!
+
+              USE hospital_db;  // database name
+
+             // view tables
+          
+              SELECT * FROM patients;
+
+              SELECT * FROM doctors;
+
+              SELECT * FROM appointments;
+              
+     //can also see in MySQL Workbench
+
+
+
+
