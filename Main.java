@@ -10,7 +10,7 @@ public class Main {
         AppointmentService as = new AppointmentService();
 
         while (true) {
-            System.out.println("\n==== Hospital Management System (MySQL) ====");
+            System.out.println("\n==== Hospital Management System ====");
             System.out.println("1. Patient");
             System.out.println("2. Doctor");
             System.out.println("3. Appointment");
